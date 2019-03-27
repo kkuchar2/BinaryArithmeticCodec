@@ -6,7 +6,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <malloc.h>
-#include "opencv2/opencv.hpp"
+#include <vector>
+#include <opencv4/opencv2/highgui.hpp>
+#include <opencv4/opencv2/opencv.hpp>
 
 #include "../ErrorCodes.h"
 
@@ -34,8 +36,8 @@ class Image {
 		int maxAlpha = -1;				  // Maximum value of alpha channel
 		int minAlpha = -1;				  // Minimum value of alpha channel
 
-        uchar channels;                   // Number of channels
-        uchar depth;                      // Datatype
+        int channels;                   // Number of channels
+        int depth;                      // Datatype
 	public:
 		Image();		                  // Constructor creating empty image object				  
 

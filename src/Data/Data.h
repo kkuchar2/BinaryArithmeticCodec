@@ -12,6 +12,7 @@
 #include <sstream>
 #include <string>
 #include <memory>
+#include <sys/stat.h>
 
 #include "../Utilities/ErrorCodes.h"
 
